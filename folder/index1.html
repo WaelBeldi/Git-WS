@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Workshop HTML</title>
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li>Resume</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Section About-->
+        <section id="about">
+            <h1>About</h1>
+            <p>Chez Gomycode, notre objectif est de simplifier l'apprentissage des technologies pour tous. Nous offrons des
+                solutions innovantes dans le domaine de l'éducation pour vous aider à apprendre, pratiquer et réaliser vos
+                rêves.</p>
+            <p>Notre aventure a commencé lorsque nous avons ouvert nos portes dans un espace de coworking et remporté le
+                prestigieux programme BlooMMasters du MIT en 2017. Depuis, nous avons formé plus de 15 000 étudiants et
+                établi des partenariats avec plus de 100 organisations dans 8 pays différents.</p>
+    
+            <a href="https://gomycode.com/tn/fr/" target="_blank"><button>Je m'inscris</button></a>
+        </section>
+    
+        <!--Section Work-->
+        <section id="work">
+            <h1>Work</h1>
+            <img src="https://gomycode.com/tn/wp-content/uploads/sites/26/2023/04/learn-1.png" alt="work">
+            <br>
+            <img src="assets/Mask-group-6.png" alt="groupe">
+        </section>
+    
+        <section>
+            <h1>Resume</h1>
+            <video width="400" controls autoplay muted>
+                <source
+                    src="https://file-examples.com/storage/fe519944ff66ba53b99c446/2017/04/file_example_MP4_480_1_5MG.mp4"
+                    type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+            <audio controls>
+                <source src="https://file-examples.com/wp-content/storage/2017/11/file_example_MP3_700KB.mp3"
+                    type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/isa3fk_oSUQ?si=ZdCTdoCnLifpspqy"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <table border="1">
+                <tr>
+                    <th>HTML</th>
+                    <th>CSS</th>
+                    <th>JS</th>
+                </tr>
+                <tr>
+                    <td>Paragraphs</td>
+                    <td>Selectors</td>
+                    <td>DOM</td>
+                </tr>
+                <tr>
+                    <td>Tables</td>
+                    <td>Styles</td>
+                    <td>Elements</td>
+                </tr>
+            </table>
+        </section>
+    
+        <section>
+            <h1>Contact</h1>
+            <form>
+                <label>Name:</label>
+                <input type="text" name="first name" placeholder="Type your name here" />
+                <br />
+    
+                <label>Number:</label>
+                <input type="number" name="number" value="" />
+                <br />
+    
+                <label>Birth Date:</label>
+                <input type="date" name="birthday" />
+                <br />
+    
+                <label>Password:</label>
+                <input type="password" name="password" />
+                <br />
+
+                <select>
+                    <option value="WebTrack">Web Track</option>
+                    <option value="AITrack">AI Track</option>
+                    <option value="GameTrack">Game Track</option>
+                    <option value="DataScienceTrack">Data Science Track</option>
+                  </select>
+                  <textarea name="message" cols="30" rows="5">
+                    Welcome to GoMyCode
+                </textarea>
+    
+                <input type="submit" value="Ok" />
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h4>Copyright Gomycode 2024 </h4>
+    </footer>
+</body>
+
+</html>
